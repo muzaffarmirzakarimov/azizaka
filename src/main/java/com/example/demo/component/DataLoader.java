@@ -28,7 +28,7 @@ public class DataLoader implements CommandLineRunner {
 
     @Value("${spring.sql.init.mode}")
     private String mode;
-
+//ketmon
     @Value("${spring.jpa.hibernate.ddl-auto}")
     private String ddl;
 
